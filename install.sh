@@ -8,7 +8,7 @@ sudo apt -y update
  cd ~
   sudo mv c9sdk /opt/
   mkdir workspace
-   echo " /usr/bin/node /opt/c9sdk/server.js -l 127.0.0.1 -w $home/workspace" > cloud9
+   echo " /usr/bin/node /opt/c9sdk/server.js -l 127.0.0.1 -w ~/workspace" > cloud9
    sudo mv cloud9 /usr/local/bin/
  sudo chmod 755 /usr/local/bin/cloud9
   echo 'var ws = new ActiveXObject("WScript.Shell");ws.Run("C:\\Windows\\System32\\bash.exe -c \"/usr/local/bin/cloud9 -D\"", 0);' > cloud9.js

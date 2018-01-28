@@ -1,6 +1,8 @@
 # IntallCloud9OnUbuntuOnWindows
+
 UbuntuOnWindows
-make User and password 
+
+make User and Password 
 
 # Install cloud9
 

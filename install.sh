@@ -1,9 +1,10 @@
 cd ~
 sudo apt -y update
 sudo apt -y upgrade
-sudo apt -y install gcc make python2.7 nodejs npm git nodejs-legacy
+sudo apt -y install gcc make python2.7 nodejs npm git
 git clone git://github.com/c9/core.git c9sdk
 cd c9sdk
+git checkout HEAD -- node_modules
 scripts/install-sdk.sh
 cd ~
 sudo mv c9sdk /opt/
